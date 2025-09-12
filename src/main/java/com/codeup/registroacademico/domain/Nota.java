@@ -8,6 +8,15 @@ package com.codeup.registroacademico.domain;
  *
  * @author Coder
  */
-public class Nota {
-    
+public final class Nota {
+    private final double valor;
+
+    public Nota(double valor) {
+        if (valor < 0.0 || valor > 5.0) {
+            throw new IllegalArgumentException("La nota debe estar entre 0.0 y 5.0");
+        }
+        this.valor = valor;
+    }
+
+    public double getValor() { return valor; }
 }
