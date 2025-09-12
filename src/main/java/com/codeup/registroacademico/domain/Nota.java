@@ -18,5 +18,5 @@ public final class Nota {
         this.valor = valor;
     }
 
-    public double getValor() { return valor; }
+
 }
