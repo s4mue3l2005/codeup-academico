@@ -1,5 +1,14 @@
-# codeup-academico
+# Sistema Académico CodeUp
 
-- lista para ver
-- 1
--3
+## Requisitos
+- Java 17
+- Maven
+- Git
+
+## Instalación y ejecución
+
+```bash
+git clone https://github.com/s4mue3l2005/codeup-academico.git
+cd codeup-academico
+mvn compile
+mvn exec:java -Dexec.mainClass="com.codeup.academico.App"
